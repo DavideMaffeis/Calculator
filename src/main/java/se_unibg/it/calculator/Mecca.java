@@ -10,4 +10,11 @@ public class Mecca {
 	public int getAnni() {
 		return this.anni;
 	}
+	
+	public String calcolaMaggiorenne() {
+		if (this.anni <18) {
+			return "non sei maggiorenne";
+		}
+		return "sei un bambino grande";
+	}
 }
