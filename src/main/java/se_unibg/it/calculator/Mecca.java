@@ -17,4 +17,8 @@ public class Mecca {
 		}
 		return "sei un bambino grande";
 	}
+	
+	public int numeroPirmo() {
+		return 5;
+	}
 }
